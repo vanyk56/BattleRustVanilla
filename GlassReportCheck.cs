@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("GlassReportCheck", "OpenAI", "1.4.0")]
+    [Info("GlassReportCheck", "Vanyk56", "1.4.0")]
     [Description("Glass-style report and moderation check system with freeze, god mode, moderator role, prefix and vanish.")]
     public class GlassReportCheck : RustPlugin
     {
@@ -1953,7 +1953,7 @@ namespace Oxide.Plugins
             player.limitNetworking = true;
             player.DisablePlayerCollider();
 
-            var connections = Net.sv.connections
+            var connections = Network.Net.sv.connections
                 .Where(x => x.connected && x.isAuthenticated && x.player is BasePlayer && x.player != player)
                 .ToList();
             player.OnNetworkSubscribersLeave(connections);

@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("ServerRates", "Server", "1.0.0")]
+    [Info("ServerRates", "vanyk56", "1.0.0")]
     [Description("Единые рейты сервера: gather, pickup, quarry/excavator, животные, рыба, скрап и компоненты в ящиках")]
     public class ServerRates : RustPlugin
     {

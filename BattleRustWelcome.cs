@@ -11,7 +11,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("BattleRustWelcome", "BattleRust", "4.0.0")]
+    [Info("BattleRustWelcome", "vanyk56", "4.0.0")]
     [Description("Battle Rust: animated welcome on join, /menu with server info, K/D statistics and rules.")]
     public class BattleRustWelcome : RustPlugin
     {

@@ -10,7 +10,7 @@ using HarmonyLib;
 
 namespace Oxide.Plugins
 {
-    [Info("SmeltingRate", "OpenAI", "1.1.0")]
+    [Info("SmeltingRate", "vanyk56", "1.1.0")]
     [Description("Scales native oven processing time and recycler intervals.")]
     public class SmeltingRate : RustPlugin
     {

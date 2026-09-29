@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace Oxide.Plugins
 {
-    [Info("ConfigurableStacks", "Codex", "1.0.0")]
+    [Info("ConfigurableStacks", "vanyk56", "1.0.0")]
     [Description("Configurable item stack sizes")]
     public class ConfigurableStacks : RustPlugin
     {

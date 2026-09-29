@@ -17,7 +17,7 @@ using UnityEngine;
 
 namespace Oxide.Plugins
 {
-    [Info("Vanish", "Whispers88", "2.1.5")]
+    [Info("Vanish", "vanyk56", "2.1.5")]
     [Description("Allows players with permission to become invisible")]
     public class Vanish : CovalencePlugin
     {

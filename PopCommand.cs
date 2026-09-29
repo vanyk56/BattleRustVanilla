@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace Oxide.Plugins
 {
-    [Info("PopCommand", "You", "1.0.0")]
+    [Info("PopCommand", "vanyk56", "1.0.0")]
     [Description("Команда !pop и /pop: показывает онлайн, сколько заходит и сколько спит")]
     class PopCommand : RustPlugin
     {
